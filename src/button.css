@@ -1,0 +1,16 @@
+.button {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: xx-large;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 5px;
+  border: 0px;
+  border-width: 0px;
+  border-image: none;
+  cursor: pointer;
+  background-color: #404040;
+}

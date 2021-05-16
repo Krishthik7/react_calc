@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+  .App {
+    text-align: center;
+    background-color: black;
+    width: fit-content;
+  }
+
+  .text-display {
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    text-align: end;
+    line-height:100px ;
+  }
+
+  .calculator-normal {
+    height: fit-content;
+    width: 440px;
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .calculator-outline {
+    width: fit-content;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .App {
+    text-align: center;
+    background-color: black;
+    width: fit-content;
+  }
+
+  .text-display {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: end;
+    line-height:100px ;
+  }
+
+  .calculator-normal {
+    height: fit-content;
+    width: 440px;
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .calculator-outline {
+    width: fit-content;
+    height: auto;
+    display: flex;
+  }
+}
+
+.history{
+  position: relative;
+  top: 10px;
+  flex-direction: column;
+  width: 200px;
+  height: 700px;
+  color: white;
+  display: flex;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.history-title{
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: end;
+  padding: 10px;
+  /* position: absolute; */
+  top: 110px;
+}
+
+.history-element{
+  font-size: xx-large;
+}
